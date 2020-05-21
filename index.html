@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="/_base.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta charset="utf-8" />
+    <title>Kiddo Kiddo</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="/assets/kiddo-logo.svg" alt="Kiddo Kiddo logo" />
+      </h1>
+    </header>
+
+    <form class="" action="index.html" method="post">
+      <h3>
+        Discover name popularity ranking over time using the graph below.
+      </h3>
+      <input
+        type="text"
+        name="name"
+        placeholder="Enter a name here e.g. Jonathan"
+        value=""
+        autocomplete="off"
+      />
+    </form>
+
+    <section>
+      <nav>
+        <div class="">Results for <span class="name">Jonathan</span></div>
+
+        <div class="key">
+          <span class="male"></span> Male <span class="female"></span> Female
+        </div>
+      </nav>
+      <svg></svg>
+    </section>
+
+    <script src="/assets/d3.min.js"></script>
+    <script src="/assets/data.min.js"></script>
+    <script src="/kiddo.js"></script>
+  </body>
+</html>
